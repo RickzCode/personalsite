@@ -11,11 +11,22 @@
     font-weight: 400;
     font-style: normal;
 }
-
+.nav{
+    margin: auto;
+}
 .navbar{
     background-color: #082751;
     padding-top: 10px;
     padding-bottom: 10px;
+    
+}
+
+li{
+    display: inline;
+    margin-right: 6rem;
+}
+.nav-links{
+    list-style: none;
 }
 
 body{
@@ -110,3 +121,19 @@ body{
       background-position: 0% 50%;
     }
   }
+
+  @media (max-width: 600px) {
+   li{
+    display: block;
+   }
+  }
+
+  @media (max-width: 900px) {
+    .nav{
+        display: flex;
+    }
+    
+    li{
+     display: block;
+    }
+   }
