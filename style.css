@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar{
+    background-color: #082751;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body{
+    background-color: #0286df;
+}
+
+.intro{
+    font-size: 56px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 1rem;
+    color: #b1e7ff;
+}
+
+.name{
+    font-size: 48px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 3rem;
+    color: #ecf9ff;
+}
+
+.more-intro{
+    font-size: 24px;
+    font-family: "Orbitron", sans-serif;
+    font-style: normal;
+    color: #ecf9ff;
+}
+
+.title{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    color: #082751;
+}
+
+.title2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    color: #b1e7ff;
+}
+#edu{
+    background-color: #ecf9ff;
+}
+
+.educ{
+    font-family: "Orbitron", sans-serif;
+    font-style: normal;
+}
+
+#exp{
+    background-color:#ecf9ff ;
+}
+
+.linkedin{
+    background-color: #082751;
+    font-family: "Press Start 2P", system-ui;
+    
+    font-style: normal;
+    font-size: 18px;
+    color: #b1e7ff;
+}
+
+.insta{
+    background-color: #ecf9ff;
+    font-family: "Press Start 2P", system-ui;
+    
+    font-style: normal;
+    font-size: 18px;
+    color: #082751;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #082751, #035cc2, #00b0fc, #b1e7ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
